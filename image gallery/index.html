@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="mySlides faide" style="display: block;">
+            <div class="slide-num">1/10</div>
+            <img class="slide_img" src="images/wimg1.jpg" alt="image1">
+            <div class="slide_caption">The Woods</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">2/10</div>
+            <img class="slide_img" src="images/wimg2.jpg" alt="image2">
+            <div class="slide_caption">Cinque Terre</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">3/10</div>
+            <img class="slide_img" src="images/wimg3.jpg" alt="image3">
+            <div class="slide_caption">Mountains and fjords</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">4/10</div>
+            <img class="slide_img" src="images/wimg4.jpg" alt="image4">
+            <div class="slide_caption">Northern Lights</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">5/10</div>
+            <img class="slide_img" src="images/wimg5.jpg" alt="image4">
+            <div class="slide_caption">Nature and sunrise</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">6/10</div>
+            <img class="slide_img" src="images/wimg6.jpg" alt="image4">
+            <div class="slide_caption">Snowy Mountains</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">7/10</div>
+            <img class="slide_img" src="images/image1.jpg" alt="image4">
+            <div class="slide_caption">Sprint Forest</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">8/10</div>
+            <img class="slide_img" src="images/image2.jpg" alt="image4">
+            <div class="slide_caption">Lake Mountains</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">9/10</div>
+            <img class="slide_img" src="images/image3.jpg" alt="image4">
+            <div class="slide_caption">Nature</div>
+        </div>
+        <div class="mySlides faide">
+            <div class="slide-num">10/10</div>
+            <img class="slide_img" src="images/japanese-cherry-trees-324175__340.jpg" alt="image4">
+            <div class="slide_caption">Spring Flower</div>
+        </div>
+
+        <a class="prev" onclick="back()">&#10094;</a>
+        <a class="next" onclick="next()">&#10095;</a>
+    </div>
+
+    <div class="image_gallery">
+        <div class="gl" onclick="clickmove(0)">
+          <img src="images/wimg1.jpg" alt="">
+          <div class="layer" style="background-color: transparent"></div>
+        </div>
+        <div class="gl" onclick="clickmove(1)">
+          <img src="images/wimg2.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(2)">
+          <img src="images/wimg3.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(3)">
+          <img src="images/wimg4.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(4)">
+          <img src="images/wimg5.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(5)">
+          <img src="images/wimg6.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(6)">
+          <img src="images/image1.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(7)">
+          <img src="images/image2.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(8)">
+          <img src="images/image3.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+        <div class="gl" onclick="clickmove(9)">
+          <img src="images/japanese-cherry-trees-324175__340.jpg" alt="">
+          <div class="layer"></div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

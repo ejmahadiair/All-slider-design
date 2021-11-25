@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Mnual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slide-conteiner">
+
+        <div class="myslides faid">
+            <div class="slide-number">1/4</div>
+            <img src="images/image1.jpg" alt="image1" style="width: 100%;">
+            <div class="text">Caption1</div>
+        </div>
+
+        <div class="myslides faid">
+            <div class="slide-number">2/4</div>
+            <img src="images/image2.jpg" alt="image2" style="width: 100%;">
+            <div class="text">Caption2</div>
+        </div>
+
+        <div class="myslides faid">
+            <div class="slide-number">3/4</div>
+            <img src="images/image3.jpg" alt="image3" style="width: 100%;">
+            <div class="text">Caption3</div>
+        </div>
+
+        <div class="myslides faid">
+            <div class="slide-number">4/4</div>
+            <img src="images/japanese-cherry-trees-324175__340.jpg" alt="image4" style="width: 100%;">
+            <div class="text">Caption4</div>
+        </div>
+
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="carentSlide(1)"></span>
+        <span class="dot" onclick="carentSlide(2)"></span>
+        <span class="dot" onclick="carentSlide(3)"></span>
+        <span class="dot" onclick="carentSlide(4)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
